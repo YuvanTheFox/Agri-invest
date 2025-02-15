@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Agri Invest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="signup-bg">
+    <div class="signup-container">
+        <h1 class="logo">Agri Invest</h1>
+        <p class="quote">"More the trust, more the crop"</p>
+        <form id="signupForm">
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="mobile" placeholder="Mobile Number" required>
+            <input type="text" id="otp" placeholder="Enter OTP" required>
+            <select id="category">
+                <option value="" disabled selected>Select Category</option>
+                <option value="farmer">Farmer</option>
+                <option value="investor">Investor</option>
+                <option value="portal_handler">Portal Handler</option>
+            </select>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
